@@ -181,3 +181,17 @@ right: 0;
     width: 100%;
   }
 }
+.shop .cardlist{
+  width: 30%;
+  padding-top: 40px;
+
+}
+.shop h4{
+  font-size: 20px;
+  color: var(--body-color);
+}
+@media (max-width: 991px){
+  .shop .cardlist{
+    width: 100%;
+  }
+}
