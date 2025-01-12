@@ -263,4 +263,5 @@ header .container ul li a {
   }
 }
 .create .cardlist{
-padding: var(--padding-section);}
+padding: var(--padding-section); 
+}
