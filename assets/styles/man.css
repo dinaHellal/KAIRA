@@ -291,3 +291,16 @@ header .container ul li a {
     display: block;
   }
 }
+footer{
+  padding: var(--padding-section);
+}
+.footers{
+  justify-content: space-between;
+}
+.footer-icons{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+
+}
