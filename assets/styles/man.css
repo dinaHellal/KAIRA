@@ -10,7 +10,7 @@
   --body-color: #8f8f8f;
   --bg: #e4e1e1ad;
   --border: #9e9b9bce;
-  --btn:rgb(1, 1, 17);
+  --btn: rgb(1, 1, 17);
   --padding-section: 50px;
 }
 a {
@@ -227,27 +227,27 @@ header .container ul li a {
 .cardlist .cards h4 {
   font-size: 19px;
 }
-.classic-collection{ 
+.classic-collection {
   padding: var(--padding-section);
   background-color: var(--bg);
   text-align: left;
 }
-.classic-collection .container{
+.classic-collection .container {
   background-color: var(--white);
   gap: 30px;
 }
-.classic-collection .container  img{
+.classic-collection .container img {
   width: 100%;
 }
-.classic-collection .collection-info{
+.classic-collection .collection-info {
   background-color: var(--white);
   width: 80%;
   text-align: left;
 }
-.classic-collection .container .collection-info h2{
+.classic-collection .container .collection-info h2 {
   font-size: 35px;
 }
-.submit{
+.submit {
   padding: 13px;
   background-color: var(--btn);
   color: var(--white);
@@ -262,6 +262,32 @@ header .container ul li a {
     text-align: center;
   }
 }
-.create .cardlist{
-padding: var(--padding-section); 
+.create .cardlist {
+  padding: var(--padding-section);
+}
+.newslitter {
+  background-color: var(--bg);
+  text-align: center;
+  padding: var(--padding-section);
+}
+.newslitter h2 {
+  font-size: 45px;
+  font-weight: normal;
+  padding: 10px;
+}
+.newslitter input{
+  width: 350px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.newslitter .submit{
+  font-size: 15px;
+}
+@media (max-width: 991px) {
+  .submit , input {
+    width: 100%;
+    display: block;
+  }
 }
