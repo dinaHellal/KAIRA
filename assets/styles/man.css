@@ -233,16 +233,13 @@ header .container ul li a {
   text-align: left;
 }
 .classic-collection .container{
-  display: flex;
-  justify-content: space-between;
   background-color: var(--white);
   gap: 30px;
 }
 .classic-collection .container  img{
-  width: 90%;
+  width: 100%;
 }
 .classic-collection .collection-info{
-  padding-top: 130px;
   background-color: var(--white);
   width: 80%;
   text-align: left;
@@ -259,3 +256,11 @@ header .container ul li a {
   border: none;
   margin: 16px 8px;
 }
+@media (max-width: 991px) {
+  .classic-collection {
+    width: 100%;
+    text-align: center;
+  }
+}
+.create .cardlist{
+padding: var(--padding-section);}
