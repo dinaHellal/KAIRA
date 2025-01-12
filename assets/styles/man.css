@@ -5,9 +5,12 @@
   font-family: "Jost", "Roboto", sans-serif;
 }
 :root{
+  --white:#fff;
   --title-color:#000;
   --body-color:#8f8f8f;
+  --bg:#e4e1e1ad;
   --border:#e4e1e1ad;
+  --padding-section:50px
 }
 a {
   text-decoration: none;
@@ -42,10 +45,13 @@ img {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
+  gap: 50px;
 }
 .title{
   font-size: 30px;
+  font-weight:lighter;
   color: var(--title-color);
+  padding: 10px;
 }
 .description{
   font-size: 20px;
@@ -88,7 +94,7 @@ header  img{
 header .container  ul li a {
   font-size: 18px;
   font-weight: 400;
-  color: var(--white);
+  color: var(--title-color);
 }
 @media (max-width: 991px) {
   header .container  ul {
@@ -141,4 +147,22 @@ right: 0;
   font-size: 55px;
   padding-bottom: 20px;
   font-weight: normal;
+}
+.collection{
+  background-color: var(--bg);
+  padding: var(--padding-section);
+}
+.cardlist{
+  width: 30%;
+}
+@media (max-width: 991px){
+  .cardlist{
+    width: 100%;
+  }
+}
+.cardlist h3{
+  padding: 6px;
+  border-bottom: 1px solid var(--title-color);
+  width: 130px;
+  line-height: 1.5;
 }
