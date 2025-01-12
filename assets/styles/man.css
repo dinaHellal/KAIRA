@@ -49,7 +49,7 @@ img {
 }
 .title{
   font-size: 30px;
-  font-weight:lighter;
+  font-weight:normal;
   color: var(--title-color);
   padding: 15px;
 }
@@ -187,11 +187,43 @@ right: 0;
 
 }
 .shop h4{
-  font-size: 20px;
+  font-size: 15px;
   color: var(--body-color);
 }
 @media (max-width: 991px){
   .shop .cardlist{
     width: 100%;
   }
+}
+.new .container{
+  padding:var(--padding-section);
+}
+.new h5{
+font-size: 20px;
+}
+.container .arrivals{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-weight: normal;
+}
+.new .cardlist{
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+@media (max-width: 991px){
+  .new .cardlist{
+    width: 100%;
+    display: block;
+  }
+}
+.cardlist .cards h3{
+border-bottom: none;
+font-size: 20px;
+width: 100%;
+padding-top: 10px;
+}
+.cardlist .cards h4{
+  font-size: 19px;
 }
