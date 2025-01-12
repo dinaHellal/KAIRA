@@ -9,7 +9,7 @@
   --title-color:#000;
   --body-color:#8f8f8f;
   --bg:#e4e1e1ad;
-  --border:#e4e1e1ad;
+  --border:#9e9b9bce;
   --padding-section:50px
 }
 a {
@@ -51,7 +51,7 @@ img {
   font-size: 30px;
   font-weight:lighter;
   color: var(--title-color);
-  padding: 10px;
+  padding: 15px;
 }
 .description{
   font-size: 20px;
@@ -144,7 +144,7 @@ right: 0;
   padding: 50px;
 }
 .hero h1{
-  font-size: 55px;
+  font-size: 50px;
   padding-bottom: 20px;
   font-weight: normal;
 }
@@ -162,7 +162,22 @@ right: 0;
 }
 .cardlist h3{
   padding: 6px;
-  border-bottom: 1px solid var(--title-color);
+  border-bottom: 1px solid var(--border);
   width: 130px;
   line-height: 1.5;
+}
+.skills {
+  text-align: center;
+  padding: var(--padding-section);
+}
+.skills .cardlist{
+  width: 20%;
+}
+.skills .cardlist img{
+  width: 25%;
+}
+@media (max-width: 991px){
+  .skills .cardlist{
+    width: 100%;
+  }
 }
